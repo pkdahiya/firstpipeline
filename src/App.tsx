@@ -5,7 +5,6 @@ import { colors, createTheme, CssBaseline } from '@mui/material';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import { store } from './redux/store';
-// import { theme } from './tailwind.config';
 import { SnackbarProvider } from 'notistack';
 import Router from './AppRouter';
 
